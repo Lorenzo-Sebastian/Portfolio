@@ -2,7 +2,7 @@
 var h = prompt("enter your favorite beverage");
 var i = 3
 var i = parseInt(prompt("give me a number"));
-console.log("hi");
+console.log("hi")
 //for loop
 //let sum = 0;
 //for (let i = 1; i <=5; i++){
