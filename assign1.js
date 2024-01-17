@@ -5,7 +5,7 @@ alert(h);
 i += 3;
 var i = parseInt(prompt("give me a number"));
 
-console.log("your favorite drink is "+ h + " your number is "+ i);
+console.log("your favorite drink is " + h + " your number is " + i);
 //for loop
 //let sum = 0;
 //for (let i = 1; i <=5; i++){
