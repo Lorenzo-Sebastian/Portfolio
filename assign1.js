@@ -4,7 +4,7 @@ var h = prompt("enter your favorite beverage");
 alert(h);
 i += 3;
 var i = parseInt(prompt("give me a number"));
-window.alert(i);
+
 console.log("your favorite drink is "+ h + " your number is "+ i);
 //for loop
 //let sum = 0;
