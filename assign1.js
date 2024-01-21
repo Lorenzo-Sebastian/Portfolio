@@ -1,8 +1,8 @@
 //Lorenzo Sebastian 1/10/2024
 console.log("hello world");
-//var h = prompt("enter your favorite beverage");
-//var i = 3
-//var i = parseInt(prompt("give me a number"));
+var h = prompt("enter your favorite beverage");
+var i = 3
+var i = parseInt(prompt("give me a number"));
 
 //for loop
 //let sum = 0;
