@@ -9,4 +9,4 @@ let sum = 0;
 for (let i = 1; i <=5; i++){
     sum += i;
 }
-alert(h + sum);
+alert(h + "" + sum);
