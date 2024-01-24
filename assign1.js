@@ -7,8 +7,8 @@
 //for loop
 for (var i = 1; i<=10; i++){
     if (i % 3 == 1){
-        window.alert(i);
+        console.log(i);
+        alert(i);
     }
 }
-    alert(i);
 //alert("Your favorite drink is "+ h + ", and your new number is " + sum);
