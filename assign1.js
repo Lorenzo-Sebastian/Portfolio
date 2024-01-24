@@ -5,10 +5,7 @@
 //var i = parseInt(prompt("give me a number"));
 
 //for loop
-let number = 0;
-while (true){
-    if (number % 2 != 0)
-    console.log(number);
- number++;
+for (let i = 1; i<=10; i+=2){
+    console.log(i);
 }
 //alert("Your favorite drink is "+ h + ", and your new number is " + sum);
