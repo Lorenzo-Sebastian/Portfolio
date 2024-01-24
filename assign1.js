@@ -10,5 +10,5 @@ for (var i = 0; i<=10; i++){
         console.log(i);
     }
 }
-console.log(i);
+    alert(i);
 //alert("Your favorite drink is "+ h + ", and your new number is " + sum);
