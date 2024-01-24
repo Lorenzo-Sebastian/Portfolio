@@ -5,9 +5,10 @@
 //var i = parseInt(prompt("give me a number"));
 
 //for loop
-for (var i = 1; i<=10; i++){
-    if (i % 3 == 1){
+for (var i = 0; i<=10; i++){
+    if (i % 2 == 0){
         console.log(i + "\n");
     }
 }
+
 //alert("Your favorite drink is "+ h + ", and your new number is " + sum);
