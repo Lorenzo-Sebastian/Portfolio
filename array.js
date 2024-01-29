@@ -9,6 +9,7 @@ console.log(result);
 function functionName (functionparameter,number)
 {if ((number % 2)==0){
     add(number);
+    return number;
 }
 else{
     console.log("the number is odd");
@@ -22,5 +23,4 @@ let txt = "";
 for (x in array1) {
     txt += array1[x];
     functionName (add, 3);
-    return x;
 }
