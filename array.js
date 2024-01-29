@@ -15,5 +15,5 @@ else{
 }
 
 }
-let results = functionName (3);
+let results = functionName (2,3);
 console.log(results);
