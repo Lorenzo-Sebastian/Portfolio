@@ -16,3 +16,4 @@ else{
 
 }
 let results = functionName (3);
+console.log(results);
