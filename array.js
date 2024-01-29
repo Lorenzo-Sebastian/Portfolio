@@ -20,6 +20,5 @@ console.log(functionName(add,3));
 
 let txt = "";
 for (x in array1) {
-    
-    functionName (add, 3);
+    console.log(functionName(add, array1[x]));
 }
