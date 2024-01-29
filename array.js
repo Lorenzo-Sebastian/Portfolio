@@ -17,3 +17,9 @@ else{
 }
 let results = functionName (add, 3);
 console.log(results);
+
+let txt = "";
+for (x in array1) {
+    txt += array1[x]
+    functionName (add, 3);
+}
