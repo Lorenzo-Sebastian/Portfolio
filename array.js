@@ -8,7 +8,7 @@ console.log(result);
 
 function functionName (functionparameter,number)
 {if ((number % 2)==0){
-    add(number);
+    functionparameter(number);
     return number;
 }
 else{
@@ -16,11 +16,10 @@ else{
 }
 
 }
-let results = functionName (add, 3);
-console.log(results);
+console.log(functionName(add,3));
 
 let txt = "";
 for (x in array1) {
-    txt += array1[x];
+    
     functionName (add, 3);
 }
