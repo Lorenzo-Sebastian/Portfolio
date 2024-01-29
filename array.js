@@ -15,5 +15,5 @@ else{
 }
 
 }
-let results = functionName (3);
+let results = functionName (add, 3);
 console.log(results);
