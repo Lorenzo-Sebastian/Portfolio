@@ -6,7 +6,7 @@ let add = function(num1,num2)
 let result = add(5,6);
 console.log(result);
 
-function fucntionName (functionparameter,number)
+function functionName (functionparameter,number)
 {if ((number % 2)==0){
     functionparameter(number);
 }
@@ -15,5 +15,5 @@ else{
 }
 
 }
-let results = functionName (2,3);
+let results = functionName (3);
 console.log(results);
