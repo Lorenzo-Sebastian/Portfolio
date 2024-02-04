@@ -5,8 +5,8 @@ for (var i = 1; i <= 5; i ++){
     const container = document.querySelector('div')
     const paragraph = document.createElement('p');
     paragraph.innerText = 'this is a paragraph ' + i;
-    container.append(paragraph);
-    document.getElementById("divId").appendChild("paragraph");
+    container.appendChild(paragraph);
+    document.getElementById("divId").appendChild(paragraph);
 }
 
 const body = document.querySelector('body');
