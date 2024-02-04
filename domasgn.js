@@ -1,12 +1,11 @@
 
-var container = document.getElementById('container');
+var container = document.getElementById("container");
 
 for (var i = 1; i <= 5; i ++){
-  //  const container = document.querySelector('div')
-    const paragraph = document.createElement("p");
-    paragraph.innerText = 'this is a paragraph';
-    container.appendChild(paragraph);
-  //  document.getElementById("container").appendChild(paragraph);
+ const newParagraph = document.createElement("p");
+ const text = document.createTextNode("middle paragraph");
+ newParagraph.appendChild(text);
+ 
 }
 
 const body = document.querySelector('body');
