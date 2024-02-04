@@ -1,10 +1,13 @@
 var i = document.querySelector('div');
-let btnSend = document.querySelector('button');
+
 let message = document.querySelector('p');
 
-btnSend.addEventListener('click,'() ==
-{
-message.innerText= 'here is some new text';
+const body = document.querySelector('body');
+const button = document.querySelector('button');
+const colors = ['red', 'green', 'yellow'];
+button.addEventListener('click',function(){
+    const colorIndex=parseInt(Math.random()*colors.length);
+    bodystyle.backgroundColor=colors[colorsIndex];
 })
 
 function color(z){
