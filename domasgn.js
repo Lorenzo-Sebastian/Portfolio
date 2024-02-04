@@ -7,7 +7,7 @@ const button = document.querySelector('button');
 const colors = ['red', 'green', 'yellow'];
 button.addEventListener('click',function(){
     const colorIndex=parseInt(Math.random()*colors.length);
-    bodystyle.backgroundColor=colors[colorsIndex];
+    body.style.backgroundColor=colors[colorsIndex];
 })
 
 function color(z){
