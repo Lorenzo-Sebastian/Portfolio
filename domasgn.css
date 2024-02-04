@@ -5,3 +5,14 @@ div {
     margin-left: auto;
 	margin-right: auto;	
 }
+
+* {
+    padding: 10px 20px ;
+    margin: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    .clr1 {
+        background-color: grey;
+    }
+}
