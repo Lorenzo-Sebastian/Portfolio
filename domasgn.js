@@ -11,8 +11,3 @@ button.addEventListener('click',function(){
     body.style.backgroundColor=colors[colorIndex];
 })
 
-function color(z){
-    var a = getComputedStyle(z);
-    var b = a.backgroundColor;
-    document.getElementsByName("BODY")[0].style.backgroundColor=b;
-}
