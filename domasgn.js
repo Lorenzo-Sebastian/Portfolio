@@ -3,7 +3,7 @@ var container = document.getElementById('container');
 let message = document.querySelector('p');
 
 for (var i = 1; i <= 5; i ++){
-    var paragraph = document.creatElement('p');
+    var paragraph = document.createElement('p');
     paragraph.textContent = 'this is a paragraph ' + i;
     container.appendChild(paragraph);
 }
