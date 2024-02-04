@@ -1,9 +1,9 @@
 
-
-for (var i = 1; i <= 5; i ++){
 const para = document.createElement("p");
 para.innerHTML = "this is a paragraph";
 document.getElementById("myDIV").appendChild(para);
+for (var i = 1; i <= 5; i ++){
+
 }
 
 const body = document.querySelector('body');
