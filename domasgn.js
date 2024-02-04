@@ -5,7 +5,7 @@ for (var i = 1; i <= 5; i ++){
  const newParagraph = document.createElement("p");
  const text = document.createTextNode("middle paragraph");
  newParagraph.appendChild(text);
-
+container.appendChild(newParagraph);
 }
 
 const body = document.querySelector('body');
