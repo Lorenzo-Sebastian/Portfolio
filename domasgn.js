@@ -1,5 +1,5 @@
-var container = ("#divId")
-
+var container = ("#divId");
+document.getElementById("divId").innerHTML = "<p>this is some example text</p>";
 
 
 for (var i = 1; i <= 5; i ++){
