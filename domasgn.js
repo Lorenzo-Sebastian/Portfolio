@@ -5,7 +5,7 @@ for (var i = 1; i <= 5; i ++){
     const container = document.querySelector('div')
     const paragraph = document.createElement('p');
     paragraph.innerText = 'this is a paragraph ' + i;
-    container.appendChild(paragraph);
+    container.append(paragraph);
     document.getElementById("divId").appendChild("paragraph");
 }
 
