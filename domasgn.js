@@ -1,9 +1,9 @@
-var container = ("#divId");
-document.getElementById("divId").innerHTML = "<p>this is some example text</p>";
+
 
 
 for (var i = 1; i <= 5; i ++){
-    var paragraph = document.createElement('p');
+    const container = document.querySelector('div')
+    const paragraph = document.createElement('p');
     paragraph.textContent = 'this is a paragraph ' + i;
     container.append(paragraph);
 }
