@@ -1,11 +1,9 @@
 
-var container = document.getElementById("container");
 
 for (var i = 1; i <= 5; i ++){
- const newParagraph = document.createElement("p");
- const text = document.createTextNode("middle paragraph");
- newParagraph.appendChild(text);
-container.append(newParagraph);
+const para = document.createElement("p");
+para.innerHTML = "this is a paragraph";
+document.getElementById("myDIV").appendChild(para);
 }
 
 const body = document.querySelector('body');
