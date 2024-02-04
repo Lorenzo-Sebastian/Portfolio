@@ -1,4 +1,4 @@
-var container = $("#divId")
+var container = ("#divId")
 
 
 
