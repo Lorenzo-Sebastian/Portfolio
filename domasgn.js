@@ -1,4 +1,5 @@
-
+//Lorenzo Sebastian
+//2/4/2024
 
 for (var i = 1; i <= 5; i ++){
     const newParagraph = document.createElement("p");
