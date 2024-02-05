@@ -1,16 +1,17 @@
 //Lorenzo Sebastian
 //2/4/2024
-
+var para = document.querySelectorAll("h3");
 for (var i = 1; i <= 5; i ++){
-    const newParagraph = document.createElement("p");
-    const text = document.createTextNode("middle paragraph");
+    var newParagraph = document.createElement("p");
+    var text = document.createTextNode("middle paragraph");
     newParagraph.appendChild(text);
-    document.getElementById("myDIV").appendChild(newParagraph);
+    para[0].parentElement.appendChild(newParagraph);
 }
 
 function colorBlack()
 {
     document.body.style.background="black";
     document.querySelectorAll('h3').forEach(e=>e.style.color="white");
+    document.querySelectorAll('p').forEach(e=>e.style.color="white");
 }
 
