@@ -10,6 +10,6 @@ for (var i = 1; i <= 5; i ++){
 function colorBlack()
 {
     document.body.style.background="black";
-    document.querySelector('h3').forEach(e=>e.style.color="white");
+    document.querySelectorAll('h3').forEach(e=>e.style.color="white");
 }
 
