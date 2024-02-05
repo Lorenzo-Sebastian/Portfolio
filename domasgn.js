@@ -7,12 +7,9 @@ for (var i = 1; i <= 5; i ++){
     document.getElementById("myDIV").appendChild(newParagraph);
 }
 
-const body = document.querySelector('body');
-const button = document.querySelector('button');
-const colors = ['red', 'green', 'yellow'];
-//body.style.backgroundColor='violet';
-//button.addEventListener('click',function(){
-  //  const colorIndex=parseInt(Math.random()*colors.length);
-    //body.style.backgroundColor=colors[colorIndex];
-//})
+function colorBlack()
+{
+    document.body.style.background="black";
+    document.querySelector('h3').forEach(e=>e.style.color="white");
+}
 
