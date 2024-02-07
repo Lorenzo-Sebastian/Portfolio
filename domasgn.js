@@ -14,6 +14,12 @@ function colorBlack()
     document.querySelectorAll('h3').forEach(e=>e.style.color="white");
     document.querySelectorAll('p').forEach(e=>e.style.color="white");
 }
+function colorWhite()
+{
+    document.body.style.background="white";
+    document.querySelectorAll('h3').forEach(e=>e.style.color="black");
+    document.querySelectorAll('p').forEach(e=>e.style.color="black");
+}
 
 const txt1 = document.getElementById('tbuser');
 const btn1 = document.getElementById('btn1');

@@ -1,3 +1,8 @@
+html {
+	background-color: grey;
+	font-family: "Times New Roman", Arial;
+}
+
 div {
     outline: 2px dashed blue;
     width: 80%;
@@ -12,4 +17,42 @@ button {
     background-color: red;
     border: none;
     border-radius: 5px;
+    margin-left: auto;
+	margin-right: auto;
+}
+/*targets devices bigger than 600px*/
+@media (min-width: 600px){
+	.menu {
+		width: 25%;
+		float: left;
+	}
+	nav::after {
+  content: "";
+  clear: both;
+  display: table;
+	}
+	a.navicon {
+		display: none;
+	}
+}
+/*targets devices smaller than 600px*/
+@media only screen and (max-width: 600px) {
+	header nav {
+		display: none;
+	}
+	a.navicon > img {
+		outline: 5px solid black;
+		background-color: grey;
+		height: 5vw;
+		width: 5vw;
+	}
+	nav {
+		display: none;
+	}
+	a.navicon:hover+nav , nav:hover {
+		display: block;
+	}
+	table {
+		width: 100%;
+	}
 }
