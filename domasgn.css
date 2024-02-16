@@ -86,3 +86,28 @@ footer, header, main, nav, section {
 #navicon {
 		display: none;
 	}
+	nav#mainLinks a:link, nav#mainLinks a:visited {
+		color: white;
+	}
+	
+	nav#mainLinks a:hover, nav#mainLinks a:active {
+		background-color: rgb(51, 51, 45);
+	}
+	nav#mainLinks div a {
+		color: white;	
+		display: block;
+		height: 2.5em;	
+		text-align: center;
+		line-height: 2.5em;	
+	}
+	nav#mainLinks div {
+		background-color: rgb(53, 98, 42);	
+		display: block;
+		float: left;
+		text-align: center;
+		width: 33.33%;	
+	}
+
+	body {
+		line-height: 1;
+	 }
