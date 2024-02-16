@@ -11,6 +11,11 @@ html {
 	margin-right: auto;	
 }*/
 
+article, aside, figcaption, figure,
+footer, header, main, nav, section { 
+   display: block;
+}
+
 /*button design*/
 .button {
 	background-color: #04AA6D;
