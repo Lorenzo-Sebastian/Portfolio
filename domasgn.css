@@ -2,6 +2,9 @@ html {
 	
 	font-family: "Times New Roman", Arial;
 }
+body {
+	line-height: 1;
+ }
 /*div elements*/
 /*div {
     outline: 2px dashed blue;
@@ -14,6 +17,24 @@ html {
 article, aside, figcaption, figure,
 footer, header, main, nav, section { 
    display: block;
+}
+
+/*nav bar styles*/
+.submenu {
+	margin-left: 20 px;
+	display: none;
+	
+}
+.menu:hover .submenu {
+	display: block;
+}
+.menu {
+	width: 100%;
+	font-size: 2em;
+	outline: 1px solid blue;
+	text-align: center;
+	background-color: red
+	
 }
 
 /*button design*/
@@ -65,23 +86,7 @@ footer, header, main, nav, section {
 		width: 100%;
 	}
 }
-/*nav bar styles*/
-.submenu {
-	margin-left: 20 px;
-	display: none;
-	
-}
-.menu:hover .submenu {
-	display: block;
-}
-.menu {
-	width: 100%;
-	font-size: 2em;
-	outline: 1px solid blue;
-	text-align: center;
-	background-color: red
-	
-}
+
 
 #navicon {
 		display: none;
@@ -108,6 +113,4 @@ footer, header, main, nav, section {
 		width: 33.33%;	
 	}
 
-	body {
-		line-height: 1;
-	 }
+	
