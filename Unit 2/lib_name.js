@@ -7,3 +7,4 @@ class Person {
         return `${this.firstName} ${this.lastName}`;
     }
 }
+const p = new Person("Lorenzo", "Sebastian");
