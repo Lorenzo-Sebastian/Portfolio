@@ -1,3 +1,3 @@
-const l = new Person ("Hello", "World");
+const l = new Person("Hello", "World");
 
-console.log(l instanceof Object);
+console.log(l.firstName);
