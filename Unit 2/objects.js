@@ -1,3 +1,3 @@
 const Person1 = new Person ("Hello", "World");
-const Person11 = Person1.fullName();
-console.log(Person11);
+
+console.log(Person1.firstName);
