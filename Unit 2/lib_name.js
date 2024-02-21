@@ -3,7 +3,7 @@ class Person {
         this.firstName = fname;
         this.lastName = lname;
     }
-    get fullName(){
-        return '${this.firstName} ${this.lastName}';
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
     }
 }
