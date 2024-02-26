@@ -1,6 +1,6 @@
 function createPlayer(hp, name, ...rest){
     var hp = hp;
-    var name = name;
+    const name = name;
     var rest = rest;
     return function () {
         return hp;
