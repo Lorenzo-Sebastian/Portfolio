@@ -1,6 +1,6 @@
 function createPlayer(hp, name, ...rest){
     var hp = hp;
-    const name = name;
+    const name = "";
     var rest = rest;
     return function () {
         return hp;
@@ -9,5 +9,5 @@ function createPlayer(hp, name, ...rest){
     }
 }
 
-var results = createPlayer(150, "Edward Richtofen", 300,200,100 )
+var results = createPlayer(150,"Richtofen", 300,200,100 )
 console.log(results());
