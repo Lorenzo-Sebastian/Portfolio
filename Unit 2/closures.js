@@ -3,13 +3,11 @@ function createPlayer(hp, name, move){
     var name = name;
     var move = move;
     return {
-        g: new enemy(),
-        gold: 99,
+    
         getName()
         {
             return(name);
         }
-       
     }
 }
 var lonzo = createPlayer(150, "richtofen", 9);
