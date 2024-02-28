@@ -8,6 +8,6 @@ function createPlayer(hp, name, move){
        
     }
 }
+lonzo = createPlayer(150, "richtofen")
 
-var results = createPlayer(150,"Richtofen", 300 )
-console.log(results);
+console.log(lonzo.function());
