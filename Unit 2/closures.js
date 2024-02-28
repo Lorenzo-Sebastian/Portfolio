@@ -2,11 +2,9 @@ function createPlayer(hp, name, move){
     var hp = hp;
     var name = name;
     var move = move;
-     return{
-        getName(){
-            return (name);
-            return hp;
-        }
+     return fucntion(){
+       return (name);
+       return hp;
      }
     }
 
