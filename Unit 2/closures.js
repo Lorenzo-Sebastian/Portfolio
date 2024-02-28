@@ -1,13 +1,15 @@
-function createPlayer(hp, name, ...rest){
+function createPlayer(hp, name, move){
     var hp = hp;
-    const name = "";
-    var rest = rest;
+    var name = name;
+    var move = move;
     return function () {
         return hp;
-        return name;
-        return rest;
+        return (name);
+        for (var i = 1; i <= 5; i ++){
+
+        }
     }
 }
 
-var results = createPlayer(150,"Richtofen", 300,200,100 )
+var results = createPlayer(150,"Richtofen", 300 )
 console.log(results());
