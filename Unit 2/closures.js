@@ -12,6 +12,6 @@ function createPlayer(hp, name, move){
        
     }
 }
-var lonzo = createPlayer(150, "richtofen")
+var lonzo = createPlayer(150, "richtofen");
 
 console.log(lonzo.function());
