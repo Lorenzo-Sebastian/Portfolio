@@ -2,12 +2,16 @@ function createPlayer(hp, name, move){
     var hp = hp;
     var name = name;
     var move = move;
-    return function () {
-        return hp;
-        return (name);
+    return {
+        g: new enemy(),
+        gold: 99,
+        getName()
+        {
+            return(name);
+        }
        
     }
 }
-lonzo = createPlayer(150, "richtofen")
+var lonzo = createPlayer(150, "richtofen")
 
 console.log(lonzo.function());
