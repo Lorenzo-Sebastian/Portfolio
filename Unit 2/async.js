@@ -1,3 +1,4 @@
+//This javascript will display two runners in the console, and shows which runner wins after a set time
 async function run(){
     var runner1 = false;
     var runner2 = false;
