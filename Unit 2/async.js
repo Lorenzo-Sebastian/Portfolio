@@ -19,3 +19,6 @@ async function run(){
     });
     return [await runner1Now, await runner2Now, loser];
 };
+run().then((i)=>{
+    console.log(i)
+});
