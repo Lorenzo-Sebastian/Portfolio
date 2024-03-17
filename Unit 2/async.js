@@ -5,8 +5,8 @@ async function run(){
 
     var runner1Now = new Promise(function(resolve){
         setTimeout(()=>{
-            loser = "runner1";
-            resolve("runner1 is the loser");
+            loser = "runner1 is the loser;(";
+            resolve("runner1");
 
         }, 9000);
         
