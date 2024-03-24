@@ -14,7 +14,7 @@ document.getElementById("displayButton").addEventListener("click", function() {
     // Create a new card with random suit and value
     const suits = ["Spades", "Hearts", "Diamonds", "Clubs"];
     const suit = suits[Math.floor(Math.random() * suits.length)];
-    const value = Math.floor(Math.random() * 13) + 1;
+    const value = Math.floor(Math.random() * 13) + 1;//ace is equal to 1
     const card = new Card(suit, value);
 
     // Display the card details on the page by calling method
