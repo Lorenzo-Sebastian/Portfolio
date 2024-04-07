@@ -3,11 +3,10 @@ let myArray = [];
 function update() {
     const output = document.getElementById('output');
     output.innerHTML = '';
-    myArray.reduce((acc, curr, index) => {
-        acc += `${index + 1}. ${curr}<br>`;
-        return acc;
+    const arrayString = myArray.reduce((acc, curr, index) => {
+        return acc + `${index + 1}. ${curr}<br>`;
     }, '');
-    output.innerHTML = output.innerHTML;
+    output.innerHTML = arrayString;
 }
 
 function pushInput() {
