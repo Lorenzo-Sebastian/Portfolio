@@ -13,46 +13,48 @@ for (let i = 1; i <= 10; i++) {
  leaves.push(new Leaf(`Leaf ${i}`));
 }
 
-// Adding leaves as children of the head
 head.left = leaves[0];
 head.right = leaves[1];
 
 const breadth = [];
 const depth = [];
 
-
-function depthFirstSearch(leaf) {
-    if (leaf) {
-       depth.push(leaf.value); // Add the current leaf's value to the depth array
-       depthFirstSearch(leaf.left); // Recurse on the left branch
-       depthFirstSearch(leaf.right); // Recurse on the right branch
-    }
+function depthFirstSearch(node) {
+    if (node === null) return;
+    depth.push(node.value); // Add the current node's value to the depth array
+    depthFirstSearch(node.left); // Recurse on the left child
+    depthFirstSearch(node.right); // Recurse on the right child
    }
 
-   function breadthFirstSearch(leaf) {
-    const queue = [leaf];
+   function breadthFirstSearch(node) {
+    const queue = [node];
    
     while (queue.length > 0) {
-       const current = queue.shift();
-       breadth.push(current.value); // Add the current leaf's value to the breadth array
+       const currentNode = queue.shift();
+       breadth.push(currentNode.value); // Add the current node's value to the breadth array
    
-       if (current.left) {
-         queue.push(current.left);
-       }
-       if (current.right) {
-         queue.push(current.right);
-       }
+       if (currentNode.left) queue.push(currentNode.left); // Enqueue left child
+       if (currentNode.right) queue.push(currentNode.right); // Enqueue right child
     }
    }
 
-   function displayResults() {
-    document.getElementById('output').innerHTML = `
-       Depth: ${depth.join(', ')}<br>
-       Breadth: ${breadth.join(', ')}
-    `;
-   }
-
-   depthFirstSearch(head);
+   // Perform the searches
+depthFirstSearch(head);
 breadthFirstSearch(head);
-displayResults();
+
+// Display the results
+const breadthList = document.getElementById('breadthList');
+const depthList = document.getElementById('depthList');
+
+breadth.forEach(value => {
+ const li = document.createElement('li');
+ li.textContent = value;
+ breadthList.appendChild(li);
+});
+
+depth.forEach(value => {
+ const li = document.createElement('li');
+ li.textContent = value;
+ depthList.appendChild(li);
+});
    
