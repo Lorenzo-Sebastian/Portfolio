@@ -111,7 +111,7 @@ function moveText(x, y) {
 }
 var dom2, x2, y2, finalx2 = 100, finaly2 = 0;
 function initText2() {
-    
+    var dom2, x2, y2, finalx2 = 100, finaly2 = 0;
     dom2 = document.getElementById('theText').style;
     x2 = dom2.left;
     y2 = dom2.top;
@@ -130,8 +130,8 @@ function moveTextback(x2, y2) {
         else if (y2 < finaly2) y2++;
 
     if ((x2 != finalx2) || (y2 != finaly2)) {
-        dom2.style.left = finalx2 + "px";
-        dom2.style.top = finaly2 + "px";
+        dom.left = x2 + "px"; // Corrected from dom2.style.left
+        dom.top = y2 + "px"; // Corrected from dom2.style.top
         setTimeout("moveText(" + x2 + "," + y2 + ")", 1);
     }
 }
