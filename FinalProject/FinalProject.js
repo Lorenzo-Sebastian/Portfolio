@@ -76,3 +76,8 @@ function removeItem() {
     list.display();
     inputItem.value = ''; // Clear the input field
 }
+
+function changeBG() {
+    const selectedBGColor = document.getElementById("bgColorChoice").value;
+    document.body.style.backgroundColor = selectedBGColor;
+}
