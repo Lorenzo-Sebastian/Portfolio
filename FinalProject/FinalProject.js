@@ -117,21 +117,7 @@ function initText2() {
     y2 = dom2.top;
     x2 = x2.match(/\d+/);
     y2 = y2.match(/\d+/);
-    moveTextback(x2, y2);
+    
 }
 
-function moveTextback(x2, y2) {
-    if (x2 != finalx)
-        if (x2 > finalx) x2--;
-        else if (x2 < finalx) x2++;
 
-    if (y2 != finaly)
-        if (y2 > finaly) y2--;
-        else if (y2 < finaly) y2++;
-
-    if ((x2 != finalx) || (y2 != finaly)) {
-        dom2.style.left = finalx + "px";
-        dom2.style.top = finaly + "px";
-        setTimeout("moveText(" + x2 + "," + y2 + ")", 1);
-    }
-}
