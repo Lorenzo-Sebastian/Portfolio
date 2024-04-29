@@ -1,0 +1,7 @@
+#theText {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font: bold 1.7em 'Times Roman';
+    color: blue;
+}
