@@ -111,7 +111,7 @@ function moveText(x, y) {
 }
 var dom2, x2, y2, finalx2 = 100, finaly2 = 0;
 function initText2() {
-    var dom2, x2, y2, finalx2 = 100, finaly2 = 0;
+   
     dom2 = document.getElementById('theText').style;
     x2 = dom2.left;
     y2 = dom2.top;
