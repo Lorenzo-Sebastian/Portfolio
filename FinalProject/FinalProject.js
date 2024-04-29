@@ -121,17 +121,17 @@ function initText2() {
 }
 
 function moveTextback(x2, y2) {
-    if (x2 != finalx2)
-        if (x2 > finalx2) x2--;
-        else if (x2 < finalx2) x2++;
+    if (x2 != finalx)
+        if (x2 > finalx) x2--;
+        else if (x2 < finalx) x2++;
 
-    if (y2 != finaly2)
-        if (y2 > finaly2) y2--;
-        else if (y2 < finaly2) y2++;
+    if (y2 != finaly)
+        if (y2 > finaly) y2--;
+        else if (y2 < finaly) y2++;
 
-    if ((x2 != finalx2) || (y2 != finaly2)) {
-        dom2.style.left = finalx2 + "px";
-        dom2.style.top = finaly2 + "px";
+    if ((x2 != finalx) || (y2 != finaly)) {
+        dom2.style.left = finalx + "px";
+        dom2.style.top = finaly + "px";
         setTimeout("moveText(" + x2 + "," + y2 + ")", 1);
     }
 }
