@@ -82,7 +82,7 @@ function changeBG() {
     document.body.style.backgroundColor = selectedBGColor;
 }
 
-var dom, x, y, finalx = 800, finaly = 0;
+var dom, x, y, finalx = 500, finaly = 0;
 
 function initText() {
     dom = document.getElementById('theText').style;
